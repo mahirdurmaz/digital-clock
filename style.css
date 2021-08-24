@@ -30,20 +30,6 @@ a:hover {
   transition: 0.4s;
 }
 
-.greeting-container {
-  color: white;
-  margin-top: 2vh;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.greeting-container:hover {
-  color: rgb(0, 247, 255);
-  transition: 0.4s;
-}
-
 .clock-container {
   margin-top: 40vh !important;
   margin: auto;
@@ -58,7 +44,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
+  cursor: default;
   transition: 0.4s;
 }
 
@@ -96,5 +82,19 @@ a:hover {
 
 #second:hover {
   color: rgb(0, 132, 255);
+  transition: 0.4s;
+}
+
+.greeting-container {
+  color: white;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  cursor: default;
+  transition: 0.4s;
+}
+
+.greeting-container:hover {
+  color: rgb(0, 247, 255);
   transition: 0.4s;
 }
